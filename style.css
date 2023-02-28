@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, 
+.navbar a, button, .card{
+    background-color: black;
+    color: white !important;
+    font-weight: 500;
+}
+
+.card{
+    background: #1E1E1E;
+    padding: 10px;
+}
+
+.navbar-brand span, .row .btn{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.row .btn:hover{
+    background-color: #36A6F6;
+    border-radius: 24px;
+}
+
+.mar{
+    margin-bottom: 80px;
+}
+
+.hero-container h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.hero-container span{
+    color: #36A6F6;
+}
+
+.hero-container p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btn{
+    max-width: 200px;
+    font-weight: 500;
+}
+
+.btn1{
+    margin-left: auto;
+}
+
+.btn2{
+    margin-right: auto;
+}
+
+.card-3{
+   display: flex; 
+   align-self: center;
+}
+
+.card-img, .card-img-bottom, .card-img-top{
+    width: 30%;
+}
+
+.card img{
+    position: relative;
+    left: 35%;
+}
+
+.foot img{
+    margin: 10px;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.sub{
+    max-width: 530px;
+    margin-top: 15%;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.sub h1{
+    max-width: 210px;
+    font-size: 40px;
+}
